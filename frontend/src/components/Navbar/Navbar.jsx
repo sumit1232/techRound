@@ -17,7 +17,7 @@ function Navbar() {
         {/* <nav class="flex items-center justify-between h-16 lg:h-20"> */}
 
             <div class="flex items-center justify-between hidden bg-blue-300 p-4 lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Home </a>
+                <a href="/" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Home </a>
 
                 <a href="/newechallan" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> E-challan </a>
 

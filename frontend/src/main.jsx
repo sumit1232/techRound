@@ -11,6 +11,7 @@ import Aboutus from './components/Aboutus/Aboutus.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import ContactUs from './components/ContactUs/ContactUs.jsx';
 import FAQ from './components/Faq/FAQ.jsx';
+import NewEchallan from './components/NewEchallan/NewEchallan.jsx';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/aboutus" element={<Aboutus />} />
       <Route path="/contctus" element={<ContactUs />} />
       <Route path="/faqs" element={<FAQ />} />
+      <Route path="/newechallan" element={<NewEchallan />} />
 
 
 

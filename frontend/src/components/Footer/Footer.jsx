@@ -9,7 +9,6 @@ function Footer() {
        <p>E challan Payment</p>
             </section>
       <section className='custom'>
-        <ul>
           <li>
             About US
           </li>
@@ -19,7 +18,6 @@ function Footer() {
           <li>
             Contact US
           </li>
-        </ul>
         </section>
 </footer>
     </>

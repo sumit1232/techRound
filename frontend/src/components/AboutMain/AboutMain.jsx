@@ -1,22 +1,15 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Footer from '../Footer/Footer'
-function Aboutus() {
+
+function AboutMain() {
   return (
-    <>
-    <Navbar/>
-    <section class="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
-            <div class="absolute inset-0">
-                <img class="object-cover w-full h-500 md:object-left md:scale-150 md:origin-top-left" src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/5/girl-working-on-laptop.jpg" alt="" />
-            </div>
-
-
-            
-        </section>
     <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="grid items-center grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-20">
-            
+            <div class="">
+                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About eChallan</h2>
+                <p class="mt-4 text-base leading-relaxed text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem tempora vitae nesciunt ad neque maiores dolorem maxime minima perferendis debitis 
+                  voluptatibus eligendi, cupiditate quaerat eius alias, quia odio ipsa!</p>
+            </div>
 
             <div class="relative pl-20 pr-6 sm:pl-6 md:px-0">
                 <div class="relative w-full max-w-xs mt-4 mb-10 ml-auto">
@@ -34,18 +27,10 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
-            <div class="">
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About eChallan</h2>
-                <p class="mt-4 text-base leading-relaxed text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem tempora vitae nesciunt ad neque maiores dolorem maxime minima perferendis debitis 
-                  voluptatibus eligendi, cupiditate quaerat eius alias, quia odio ipsa!</p>
-            </div>
         </div>
     </div>
 </section>
-<Footer/>
-</>
-
   )
 }
 
-export default Aboutus
+export default AboutMain

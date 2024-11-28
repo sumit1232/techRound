@@ -1,13 +1,17 @@
+li, ul, ol{
+  list-style-type: none;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3px;
+  background-color: rgb(167, 162, 160);
+  color: white;
+}
 
-  .footer {
-    display: flex;
-    width: 100%;
-   justify-content: space-between;
-    padding: 3px;
-    background-color: rgb(167, 162, 160);
-    color: white;
-  }
 
-  .custom{
-display: flex;
-  }
+.custom {
+  display: flex;
+  gap: 1em;
+}

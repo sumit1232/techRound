@@ -1,7 +1,18 @@
 import React from 'react'
-
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 function FAQ() {
   return (
+    <>
+    <Navbar/>
+    <section class="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
+            <div class="absolute inset-0">
+                <img class="object-cover w-full h-500 md:object-left md:scale-150 md:origin-top-left" src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/5/girl-working-on-laptop.jpg" alt="" />
+            </div>
+
+
+            
+        </section>
     <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-2xl mx-auto text-center">
@@ -69,10 +80,11 @@ function FAQ() {
             </div>
         </div>
 
-        <p class="text-center text-gray-600 textbase mt-9">Didn’t find the answer you are looking for? <a href="#" title="" class="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">Contact our support</a></p>
+        {/* <p class="text-center text-gray-600 textbase mt-9">Didn’t find the answer you are looking for? <a href="#" title="" class="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">Contact our support</a></p> */}
     </div>
 </section>
-
+<Footer/>
+</>
   )
 }
 

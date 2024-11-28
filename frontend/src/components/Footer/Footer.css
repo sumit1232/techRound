@@ -1,0 +1,13 @@
+
+  .footer {
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+    padding: 3px;
+    background-color: rgb(167, 162, 160);
+    color: white;
+  }
+
+  .custom{
+display: flex;
+  }
